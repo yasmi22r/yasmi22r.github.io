@@ -7,18 +7,18 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: serif,sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: 	#fffacd;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: #0499ff;
+  color: aliceblue;
 }
 a:hover {
-  color: #6633ff;
+  color: #663383;
 }
 
 /* Section Styles */
@@ -27,7 +27,6 @@ a:hover {
   width: 100%;
   background: black;
   min-height: 30px;
-  padding: 10px;
   position: fixed;
   text-align: center;
 }
@@ -54,7 +53,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/laguna_beach.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -149,13 +148,13 @@ a.social {
   transition: all .25s;
 }
 a.twitter {
-  background-image: url(images/twitter.svg);
+  background-image: url(images/instagram-logo.svg);
 }
 a.linkedin {
-  background-image: url(images/linkedin.svg);
+  background-image: url(images/linkedin-logo-button.svg);
 }
 a.github {
-  background-image: url(images/github.svg);
+  background-image: url(images/github-logo.svg);
 }
 a.social:hover {
   opacity: 1;
@@ -185,7 +184,7 @@ a.social:hover {
   .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: navajowhite;
   }
 
   main {
